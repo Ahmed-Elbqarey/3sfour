@@ -1,4 +1,10 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  overflow: hidden;
   height: 600vh;
   display: flex;
   justify-content: space-between;
@@ -55,4 +61,7 @@ body {
 .button-name:active {
   box-shadow: #d6d6e7 0 3px 7px inset;
   transform: translateY(2px);
+}
+img {
+  width: 350px;
 }
