@@ -8,7 +8,7 @@ button.onclick = () => {
 };
 
 window.addEventListener("scroll", () => {
-  if (scrollY > 3000) {
+  if (scrollY > 2900) {
     var audio = document.getElementById("myAudio");
     audio.play();
     window.removeEventListener("scroll", arguments.callee);
